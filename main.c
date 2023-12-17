@@ -58,7 +58,7 @@ void displaySepalLength(struct IRIS_DATASET *Flowers, int NUM_SPECIES){
 
 int main() {
     FILE *CSV_file;
-    CSV_file = fopen("C:\\Users\\tanmo\\CLionProjects\\Kaggle_IRIS_dataSet\\iris.csv", "r");
+    CSV_file = fopen("file path here", "r");
 
     if (!CSV_file) {
         perror("Error opening file");
